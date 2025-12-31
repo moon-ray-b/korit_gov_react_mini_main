@@ -16,6 +16,7 @@
         <id property="boardId" column="board_id"/>
         <result property="title" column="title"/>
         <result property="content" column="content"/>
+        <result property="profileImg" column="profile_img"/>
         <result property="userId" column="user_id"/>
         <result property="username" column="username"/>
         <result property="createDt" column="create_dt"/>
@@ -36,6 +37,7 @@
             bt.content,
             bt.user_id,
             ut.username,
+            ut.profile_img,
             bt.create_dt,
             bt.update_dt
         from
@@ -52,6 +54,7 @@
             bt.content,
             bt.user_id,
             ut.username,
+            ut.profile_img,
             bt.create_dt,
             bt.update_dt
         from
@@ -68,6 +71,7 @@
             bt.content,
             bt.user_id,
             ut.username,
+            ut.profile_img,
             bt.create_dt,
             bt.update_dt
         from
@@ -86,6 +90,7 @@
             bt.content,
             bt.user_id,
             ut.username,
+            ut.profile_img,
             bt.create_dt,
             bt.update_dt
         from

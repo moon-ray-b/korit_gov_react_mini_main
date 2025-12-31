@@ -12,6 +12,7 @@ public class BoardRespDto {
     private String title;
     private String content;
     private Integer userId;
+    private String profileImg;
     private String username;
     private LocalDateTime createDt;
     private LocalDateTime updateDt;
